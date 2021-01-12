@@ -8,6 +8,10 @@
 10 -> Classes e atribute selectors ([type="radio"])
 100 -> ID selector
 1000 -> Inline
+
+regra !important
+ela sobrepõe qualquer cascata de estilo, mesmo com a menor força na cadeia
+não é uma boa prática, deve ser evitada a sua utilização
 */
 
 /* força 0pts */
@@ -38,4 +42,9 @@ body h1 {
 /* aplicar no elemento h1 com Classe title e ID my-title  */
 h1.title#my-title {
   color: blueviolet;
+}
+
+/* força MAX pela utilização da regra !imporant*/
+h1 {
+  color: gold !important;
 }
