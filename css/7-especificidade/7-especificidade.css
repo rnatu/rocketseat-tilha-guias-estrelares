@@ -1,0 +1,41 @@
+/*
+  Especificidade
+
+  É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
+
+0 -> Universal selector, combinators e negation pseudo-class (:not())
+1 -> Element type selector e pseudo-elements (::before, ::after)
+10 -> Classes e atribute selectors ([type="radio"])
+100 -> ID selector
+1000 -> Inline
+*/
+
+/* força 0pts */
+/* aplicar em todos elementos html */
+* {
+  color:magenta;
+}
+
+/* força 1pt */
+/* aplicar em todos os h1 e h2 */
+h1, h2 {
+ color: blue;
+}
+
+/* força 2pts */
+/* dentro do body, aplicar em tudo que for h1 */
+body h1 {
+  color: red;
+}
+
+/* força 100, força 101 */
+#my-title, #my-title strong {
+  color: gray;
+}
+
+
+/* força 111 */
+/* aplicar no elemento h1 com Classe title e ID my-title  */
+h1.title#my-title {
+  color: blueviolet;
+}
