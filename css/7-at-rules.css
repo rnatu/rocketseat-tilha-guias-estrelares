@@ -13,9 +13,9 @@
 /* Exemplos comuns */
 
  /* @import - incluir um CSS externo */
-@import "http://local.com/style.css";
+@import "http://urlaqui.com/style.css";
 /* ou */
-@import url("http://local.com/style.css");
+@import url("http://urlaqui.com/style.css");
 
 /* @media - regras condicionais para dispositivos */
 @media (min-width: 500px) {
