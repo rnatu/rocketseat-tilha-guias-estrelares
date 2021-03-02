@@ -1,7 +1,7 @@
 
-// var é global e, também local
+//# var é global e, também local
 
-//var x; HOISTING
+//! var x; HOISTING
 console.log('> existe x antes do bloco?', x); // undefined
 
 {
