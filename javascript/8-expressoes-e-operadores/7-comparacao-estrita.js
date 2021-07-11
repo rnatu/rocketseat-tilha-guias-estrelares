@@ -3,12 +3,12 @@
 let one = 1;
 let two = 2;
 
-//* == igual a -> shallow compare
-// console.log(two === 1) //false
-console.log(one === '1'); //false
+//* === igual a -> strict comparison
+// console.log(two === 1) // false
+console.log(one === '1'); // false
 
-//* != diferente de -> shallow compare
-// console.log(one !== two) //true
+//* != diferente de -> strict comparison
+// console.log(one !== two) // true
 // console.log(one !== 1) // false
-console.log(one !== '1') //true
+console.log(one !== '1') // true
 
