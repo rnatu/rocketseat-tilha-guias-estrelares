@@ -5,11 +5,9 @@
 {
   // console.log('> existe x antes?', y); // Cannot access 'y' before initialization
   let y = 0;
-  console.log('> existe y', y)
+  console.log('> existe y', y) // 0
 }
 // console.log('> existe y depois do bloco?', y) //  y is not defined
-console.log('')
-
 
 let b = 22; //escopo global
 
@@ -17,7 +15,7 @@ let b = 22; //escopo global
   {
     {
       b = 0; //acessando variável do escopo global e atualizando o valor
-      console.log('Dentro do escopo de bloco',b); // 0
+      console.log('Dentro do escopo de bloco', b); // 0
     }
   }
 }
