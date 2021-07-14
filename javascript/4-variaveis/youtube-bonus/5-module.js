@@ -6,5 +6,5 @@
 
 // Importando o módulo utilizando CommonJS
 //% Para funcionar no code runner, que utiliza node, deve ser feito utilizando CommonJS
-const message = require('./6-module-lib.js')
+const message = require('./5-pt2-module-lib.js')
 console.log(message) // Hello World
