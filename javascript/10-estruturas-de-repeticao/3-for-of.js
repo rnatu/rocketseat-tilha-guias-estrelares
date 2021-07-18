@@ -1,4 +1,6 @@
 // for...of
+// array -> value
+// string -> each character
 
 let name = "Mayk"
 let names = ['João', 'Paulo', 'Pedro'];
