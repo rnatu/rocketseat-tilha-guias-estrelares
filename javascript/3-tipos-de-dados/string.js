@@ -10,7 +10,7 @@ Cadeia de caracteres
 */
 
 console.log("esse é um texto");
-console.log('esse é um texto');
+console.log("esse é um texto");
 console.log(' "esse é um texto" ');
 console.log(` esse é um texto ' ' "" `);
-console.log(` esse é um texto ${7+1}`);
+console.log(` esse é um texto ${7 + 1}`);

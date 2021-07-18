@@ -11,7 +11,6 @@ sayMyName(() => {
   console.log("Estou em uma callback, Meu nome é Renato");
 });
 
-
 console.log("");
 const sayMyLastName = (lastName) => lastName;
 

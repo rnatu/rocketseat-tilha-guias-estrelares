@@ -1,11 +1,11 @@
 const animals = [
-  'Lion',
-  'Monkey',
+  "Lion",
+  "Monkey",
   {
-    name: 'Boston terrier',
+    name: "Boston terrier",
     age: 2,
-  }
+  },
 ];
 
-console.log(animals[0])
-console.log(animals[2].name)
+console.log(animals[0]);
+console.log(animals[2].name);

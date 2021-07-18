@@ -9,9 +9,9 @@
 */
 
 console.log({
-  name: 'Renato',
+  name: "Renato",
   age: 36,
-  andar: function() {
-    console.log('Andar')
-  }
-})
+  andar: function () {
+    console.log("Andar");
+  },
+});

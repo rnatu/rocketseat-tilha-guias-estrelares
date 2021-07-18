@@ -9,12 +9,11 @@
 
 */
 
+console.log(true);
+console.log(false);
 
-console.log(true)
-console.log(false)
+const num = "valor";
 
-const num = 'valor';
-
-console.log('')
-console.log(typeof num === 'string')
-console.log(typeof num === 'number')
+console.log("");
+console.log(typeof num === "string");
+console.log(typeof num === "number");

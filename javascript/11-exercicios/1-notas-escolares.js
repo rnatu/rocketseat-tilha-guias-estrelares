@@ -9,7 +9,6 @@ numérico para sistema de notas em caracteres tipo A B C
 * entre 70 - 79      -    C
 * entre 60 - 69      -    D
 * menor que 60       -    F
-
 */
 
 const getScore = (score) => {

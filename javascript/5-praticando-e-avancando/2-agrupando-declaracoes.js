@@ -1,9 +1,8 @@
-
 // declarações conjuntas
 //! Somente com let
 let firstName, age, isHuman;
 
-firstName = 'Renato'
+firstName = "Renato";
 age = 30;
 isHuman = true;
 

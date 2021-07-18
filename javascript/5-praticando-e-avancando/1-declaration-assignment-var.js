@@ -3,7 +3,7 @@
 var nome;
 
 //assignment or atribuição de valores
-nome = 'Renato';
+nome = "Renato";
 
 // que tipo de dado foi colocado na variável
 console.log(typeof nome);

@@ -2,4 +2,4 @@
 let phrase = "Eu quero viver o Amor!";
 
 //! o includes() é case sensitive
-console.log(phrase.includes('Amor'));
+console.log(phrase.includes("Amor"));

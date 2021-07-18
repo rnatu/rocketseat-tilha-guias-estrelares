@@ -4,4 +4,4 @@
 
 let number = 345.33452345;
 //! toFixed() transforma o tipo Number em String;
-console.log(number.toFixed(2).replace('.', ','))
+console.log(number.toFixed(2).replace(".", ","));

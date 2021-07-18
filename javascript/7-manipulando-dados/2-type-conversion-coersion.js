@@ -7,7 +7,7 @@
 */
 
 // Type coersion - (feito pelo javascript)
-console.log('9' + 5);
+console.log("9" + 5);
 
 // Type conversion (typecasting) - feito através da nossa tomada de decisão
-console.log(Number('9') + 5);
+console.log(Number("9") + 5);

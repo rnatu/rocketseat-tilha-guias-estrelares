@@ -11,7 +11,7 @@
 let number = 1; //necessário o uso do ; antes de uma função auto-executavel
 
 (function () {
-  console.log('Alo');
+  console.log("Alo");
 })();
 
 //operadores Binary (utiliza de dois elementos e o operador entre eles)
@@ -23,4 +23,4 @@ console.log(--number);
 console.log(typeof number);
 
 //operadores Ternary
-console.log(true ? 'Oláááá' : 'nada');
+console.log(true ? "Oláááá" : "nada");

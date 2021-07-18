@@ -16,4 +16,4 @@ createPhrases();
 createPhrases();
 createPhrases();
 
-console.log("fim do programa")
+console.log("fim do programa");

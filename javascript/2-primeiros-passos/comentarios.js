@@ -7,4 +7,4 @@
 
 */
 
-console.log('Bem vindos ao Starter') //alguma coisa
+console.log("Bem vindos ao Starter"); //alguma coisa
